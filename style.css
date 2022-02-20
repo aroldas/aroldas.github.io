@@ -4,9 +4,7 @@
 	font-family: sans-serif;
 }
 body {
-	background-color: white;
 	background-image: url("image.jpg");
-	background-size: auto;
 }
 a {
 	text-decoration: none;
