@@ -31,3 +31,22 @@ p{
 	font-size: 60px;
 	font-weight: bold;
 }
+
+/* Media */
+
+@media screen and (max-width: 500px) {
+	
+	h1 {
+		text-align: center;
+	}
+	a {
+		padding: 0px 0px;
+		float: none;
+		width: 100%;
+		display: block;
+
+	}
+	p {
+		margin-top: 50px;
+	}
+}
