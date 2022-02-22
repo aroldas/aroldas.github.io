@@ -1,39 +1,41 @@
-
+body{
+	/* Background */
+	 background: linear-gradient(to left, #abbaab, #ffffff);
+}
 /* Navigation Bar */
 ul {
 	/* Remove List Styles */
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
-	background-color: black;
+	overflow: auto;
 	/* Fixed Top */
 	position: fixed;
 	top: 0;
 	width: 100%;
 	/* Text Styles */
-	font-family: sans-serif;
-	/* Borders */
-	border: 1px solid blue;
+	font-family: monospace;
+	font-size: 15px;
 }
 li {
 	display: inline-block;
 }
 li a {
-	color: white;
+	color: black;
 	display: block;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	transition: 1s;
 }
-.active{
-	background-color: grey;
+li a:hover {
+	color: red;
 }
-
 /* Headers */
-
 h1{
-	margin-left: 10px;
-	margin-top: 10px;
-	color: white;
+	margin-left: 40px;
+	margin-top: 40px;
+	color: black;
+	font-size: 40px;
+	font-weight: 600px;
 }
