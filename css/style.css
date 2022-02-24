@@ -1,41 +1,48 @@
-body{
-	/* Background */
-	 background: linear-gradient(to left, #abbaab, #ffffff);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
 }
-/* Navigation Bar */
-ul {
-	/* Remove List Styles */
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: auto;
-	/* Fixed Top */
-	position: fixed;
-	top: 0;
-	width: 100%;
-	/* Text Styles */
-	font-family: monospace;
-	font-size: 15px;
+
+body {
+	background: linear-gradient(270deg, #0f2027, #203a43, #2c5364);
 }
-li {
-	display: inline-block;
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px, 10%;
+	margin-top: 20px;
 }
-li a {
-	color: black;
-	display: block;
-	text-align: center;
-	padding: 14px 16px;
+
+li, a {
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
 	text-decoration: none;
-	transition: 1s;
+	font-family: "Poppins", sans-serif;
 }
-li a:hover {
-	color: red;
+/* Classes */
+.name {
+	margin-right: 10px;
 }
-/* Headers */
-h1{
-	margin-left: 40px;
-	margin-top: 40px;
-	color: black;
-	font-size: 40px;
-	font-weight: 600px;
+
+.nav-links {
+	list-style: none;
+}
+
+.nav-links li {
+	display: inline-block;
+	padding: 0px 50px;
+}
+
+.nav-links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+	color: blue;
 }
