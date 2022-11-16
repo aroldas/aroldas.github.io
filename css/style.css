@@ -4,10 +4,10 @@
 	box-sizing: border-box;
 	margin:0;
 	padding:0;
+	color:white;
 }
 
 body {
-	background: rgb(0,0,0);
 	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,9,255,1) 50%, rgba(0,0,0,1) 100%);
 }
 
@@ -48,5 +48,5 @@ li, a {
 }
 
 .nav-links li a:hover {
-	color: blue;
+	text-shadow: #FC0 1px 0 10px;
 }
