@@ -35,6 +35,10 @@ li, a {
 	padding-left: 100px;
 }
 
+.name li a:hover {
+	text-shadow: white 1px 0 10px;
+}
+
 .nav-links {
 	list-style: none;
 	padding-right: 100px;
