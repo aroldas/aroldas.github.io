@@ -35,6 +35,10 @@
 			<h1> HURACAN </h1>
 			<p> <q> Really Cool Site. </q> </p>
 		</div>
+		<div class="footer">
+			<a href="https://github.com/ares-gh">GITHUB</a>
+			<a href="#resources">DISCORD</a>
+		</div>
 	</body>
 
 </html>
