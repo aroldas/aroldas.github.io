@@ -13,10 +13,9 @@
 	
 	<body>
 		<nav class="topnav" id="topnav">
+			<a href="#projects">Projects</a>
 			<a class="name" href="#home">Huracan</a>
-			<a href="#home" class="active">Home</a>
-			<a href="#news">News</a>
-			<a href="#contact">Contact</a>
+			<a href="#resources">Resources</a>
 			<a href="#about">About</a>
 			<a href="javascript:void(0);" class="icon" onclick="navicon()">
 			<i class="fa fa-bars"></i>
