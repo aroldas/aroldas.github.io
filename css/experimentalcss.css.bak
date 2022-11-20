@@ -40,6 +40,9 @@ body {
 .active a {
 	text-shadow: 0px 0px 25px rgba(128, 128, 128, 1),0px 0px 25px rgba(255, 255, 255, 1);
 }
+.topnav a:hover{
+	text-shadow: 0px 0px 25px rgba(128, 128, 128, 1),0px 0px 25px rgba(255, 255, 255, 1);
+}
 .footer {
 	position: fixed;
 	width: 100%;
