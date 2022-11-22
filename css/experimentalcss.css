@@ -1,31 +1,29 @@
 .topnav {
 	text-align: center;
-	max-width: 100%;
 	width: 100%;
-	overflow: hidden;
-	background-color: black;
+	overflow: show;
+	background: rgb(10, 10, 10);
 	position: fixed; 
     top: 0; 
 	left: 0; 
 }
 body {
-	background: rgb(0,0,0);
-	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 11%, rgba(17,0,69,1) 35%, rgba(3,0,13,1) 84%, rgba(0,0,0,1) 100%);
-	min-height: 100%;
+	background: rgb(10, 10, 10);
 	height: 100%;
-	max-height: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-	font-family: 'Kanit', sans-serif;
-	color: white;
+	font-family: 'Merriweather', serif;
+	color: rgb(249, 246, 238);
+	letter-spacing: 0.50vw;
+	text-shadow: 0px 0px 25px rgba(128, 128, 128, 1),0px 0px 25px rgba(255, 255, 255, 1);
 }
 .topnav a {
 	text-decoration: none;
 	text-align: center;
 	display: flex;
-	color: white;
-	font-size: 1.9vw;
-	padding: 1vw 8.1vw;
+	color: rgb(249, 246, 238);
+	font-size: 1vw;
+	padding: 0vw 8vw;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
 	float: left;
 }
 .topnav .icon {
@@ -33,9 +31,16 @@ body {
 }
 .landing {
 	text-align: center;
-	font-size: 8vw;
-	margin-top: 10vw;
-	padding-bottom: 500vw;	
+	font-size: 2vw;
+	padding-top: 20vw;
+	padding-bottom: 100vw;
+	background-image: url("../images/landing.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	text-shadow: 0px 0px 25px rgba(128, 128, 128, 1),0px 0px 25px rgba(255, 255, 255, 1);
 }
 .active a {
 	text-shadow: 0px 0px 25px rgba(128, 128, 128, 1),0px 0px 25px rgba(255, 255, 255, 1);
@@ -44,21 +49,22 @@ body {
 	text-shadow: 0px 0px 25px rgba(128, 128, 128, 1),0px 0px 25px rgba(255, 255, 255, 1);
 }
 .footer {
-	position: fixed;
+	min-width: 100%;
 	width: 100%;
-	background-color: black;
+	background: rgb(10, 10, 10);
 	text-align: center;
 	left: 0;
+	display: block;
     bottom: 0;
 	color: white;
+	position: fixed;
 }
 .footer a {
-	color: white;
+	padding: 1vw 8.1vw;
+	color: rgb(249, 246, 238);
 	text-decoration: none;
-	padding: 0 10%;
 	display: inline-block;
 	font-size: 1vw;
-	padding: 1vw 8.1vw;
 }
 @media screen and (max-width: 654px) {
   .topnav a {
@@ -85,17 +91,19 @@ body {
   }
   .topnav a {
 	font-size: 6vw;
+	padding-top: 4vw;
+	padding-bottom: 4vw;
   }
    .topnav {
 	width: 100%;
   }
   .landing {
-	margin-top: 60vw;
-	margin-bottom: 100vw;	
+	margin-top: 10vw;
+	margin-bottom: 10vw;	
+	font-size: 5vw;
   }
   .footer a {
-	  font-size: 4vw;
-	  padding: 0 1vw;
+	font-size: 4vw;
   }
   }
 }
