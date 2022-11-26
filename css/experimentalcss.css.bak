@@ -2,28 +2,34 @@
 	text-align: center;
 	width: 100%;
 	overflow: show;
-	background: rgb(10, 10, 10);
+	background: rgb(10, 10, 10, 0.6);
 	position: fixed; 
     top: 0; 
 	left: 0; 
+	backdrop-filter: blur(1vw);
 }
 body {
 	background: rgb(10, 10, 10);
 	height: 100%;
-	font-family: 'Merriweather', serif;
+	font-family: sans-serif;
 	color: rgb(249, 246, 238);
-	letter-spacing: 0.50vw;
+	background-image: url("../images/landing.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
 }
 .topnav a {
 	text-decoration: none;
 	text-align: center;
 	display: flex;
-	color: rgb(249, 246, 238);
 	font-size: 1vw;
-	padding: 0vw 8vw;
+	padding: 0vw 3vw;
 	padding-top: 2vw;
 	padding-bottom: 2vw;
 	float: left;
+	color: rgb(249, 246, 238);
 }
 .topnav .icon {
 	display: none;
@@ -31,39 +37,26 @@ body {
 .landing {
 	text-align: center;
 	font-size: 2vw;
-	padding-top: 20vw;
-	padding-bottom: 100vw;
-	background-image: url("../images/landing.jpg");
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: cover;
-	background-attachment: fixed;
-	width: 100%;
-	text-shadow: 0px 0px 25px rgba(128, 128, 128, 1),0px 0px 25px rgba(255, 255, 255, 1);
+	padding-top: 10vw;
+	padding-bottom: 5vw;
 }
-.active a {
-	text-shadow: 0px 0px 25px rgba(128, 128, 128, 1),0px 0px 25px rgba(255, 255, 255, 1);
+.home {
+	text-align: center;
+	font-size: 2vw;
+	padding-top: 5vw;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	padding-bottom: 5vw;
+}
+.home p {
+	font-size: 1.5vw;
+	text-align: left;
+}
+.topnav:hover a:not(:hover) {
+  opacity: 0.6;
 }
 .topnav a:hover{
-	text-shadow: 0px 0px 25px rgba(128, 128, 128, 1),0px 0px 25px rgba(255, 255, 255, 1);
-}
-.footer {
-	min-width: 100%;
-	width: 100%;
-	background: rgb(10, 10, 10);
-	text-align: center;
-	left: 0;
-	display: block;
-    bottom: 0;
-	color: white;
-	position: fixed;
-}
-.footer a {
-	padding: 1vw 8.1vw;
-	color: rgb(249, 246, 238);
-	text-decoration: none;
-	display: inline-block;
-	font-size: 1vw;
+
 }
 @media screen and (max-width: 654px) {
   .topnav a {
@@ -100,9 +93,6 @@ body {
 	margin-top: 10vw;
 	margin-bottom: 10vw;	
 	font-size: 5vw;
-  }
-  .footer a {
-	font-size: 4vw;
   }
   }
 }

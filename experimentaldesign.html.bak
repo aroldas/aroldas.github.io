@@ -9,9 +9,6 @@
 		<meta name="description" content="The home of Huracan.dev.">
 		<meta name="author" content="Huracan">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<style>
-			@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-		</style>
 	</head>
 	
 	<body>
@@ -20,6 +17,9 @@
 			<a href="#projects">PROJECTS</a>
 			<a href="#resources">RESOURCES</a>
 			<a href="#about">ABOUT</a>
+			<a href="">class="icons"<i class="fa-brands fa-github"></i> </a>
+			<a href=""><i class="fa-brands fa-discord"></i></a>
+			<a href=""><i class="fa-brands fa-youtube"></i></a>
 			<a href="javascript:void(0);" class="icon" onclick="navicon()">
 			<i class="fa fa-bars"></i></a>
 		</nav>
@@ -33,12 +33,12 @@
 		</script>
 		<div class="landing">
 			<h1> HURACAN </h1>
-			<p> <q> Really Cool Site. </q> </p>
+			<p> WELCOME TO HURACAN. </p>
 		</div>
-		<div class="footer">
-			<a href=""><i class="fa-brands fa-github"></i> </a>
-			<a href=""><i class="fa-brands fa-discord"></i></a>
-		</div>
+		<div class="home">
+			<h1> HOME </h1>
+			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt vitae semper quis lectus nulla at volutpat diam ut. In est ante in nibh mauris cursus mattis molestie. Justo laoreet sit amet cursus sit amet dictum sit. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Ultrices vitae auctor eu augue. Laoreet non curabitur gravida arcu ac tortor dignissim convallis. Enim neque volutpat ac tincidunt vitae. Habitant morbi tristique senectus et netus et malesuada. Sit amet est placerat in egestas erat imperdiet sed. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Odio pellentesque diam volutpat commodo. Egestas purus viverra accumsan in nisl. Lorem mollis aliquam ut porttitor leo. Placerat orci nulla pellentesque dignissim. A arcu cursus vitae congue mauris rhoncus aenean. Sit amet consectetur adipiscing elit duis tristique. </p>
+		</div>		
 	</body>
 
 </html>
