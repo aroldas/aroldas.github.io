@@ -1,33 +1,30 @@
 .topnav {
 	text-align: center;
-	width: 100%;
-	overflow: show;
 	background: rgb(10, 10, 10, 0.6);
 	position: fixed; 
     top: 0; 
 	left: 0; 
 	backdrop-filter: blur(1vw);
+	width: 100%;
 }
 body {
 	background: rgb(10, 10, 10);
 	height: 100%;
-	font-family: sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	color: rgb(249, 246, 238);
-	background-image: url("../images/landing.jpg");
+	background-image: url("../images/landing.png");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 	background-attachment: fixed;
-	width: 100%;
 }
 .topnav a {
 	text-decoration: none;
 	text-align: center;
 	display: flex;
 	font-size: 1vw;
-	padding: 0vw 3vw;
-	padding-top: 2vw;
-	padding-bottom: 2vw;
+	padding: 1.5vw 5vw;
+	font-weight: bold;
 	float: left;
 	color: rgb(249, 246, 238);
 }
@@ -36,21 +33,22 @@ body {
 }
 .landing {
 	text-align: center;
-	font-size: 2vw;
-	padding-top: 10vw;
-	padding-bottom: 5vw;
+	font-size: 3vw;
+	padding-top: 20vw;
+	padding-bottom: 10vw;
+	text-shadow: 2px 2px 20px black;
 }
 .home {
-	text-align: center;
+	text-align: left;
 	font-size: 2vw;
-	padding-top: 5vw;
-	margin-left: 2vw;
-	margin-right: 2vw;
-	padding-bottom: 5vw;
+	margin: 10vw;
+	padding: 2vw;
+	background: rgb(10, 10, 10, 0.6);
+	border-radius: 20px;
+	backdrop-filter: blur(1vw);
 }
 .home p {
 	font-size: 1.5vw;
-	text-align: left;
 }
 .topnav:hover a:not(:hover) {
   opacity: 0.6;
@@ -84,15 +82,19 @@ a {
   }
   .topnav a {
 	font-size: 6vw;
-	padding-top: 4vw;
-	padding-bottom: 4vw;
-  }
-   .topnav {
-	width: 100%;
+	padding: 6vw 12vw;
   }
   .landing {
-	margin-top: 10vw;
-	margin-bottom: 10vw;	
+	margin: 10vw;	
+	font-size: 5vw;
+  }
+  .home {
+	margin: 10vw;	
+	font-size: 5vw;
+	text-align: center;
+	border-radius: 0px;
+  }
+  .home p {	
 	font-size: 5vw;
   }
   }
