@@ -2,7 +2,7 @@
 <html>
 
 	<head>
-		<title>Projects | Huracan</title>
+		<title>Resources Huracan</title>
 		<link rel="stylesheet" href="css/style.css">
 		<script src="https://kit.fontawesome.com/93fe859f5a.js" crossorigin="anonymous"></script>
 		<meta name="keywords" content="HTML, CSS, JavaScript, Huracan, Huracan.dev">
@@ -14,8 +14,8 @@
 	<body>
 		<nav class="topnav" id="topnav">
 			<a href="/">HURACAN</a>
-			<a class="active" href="projects">PROJECTS</a>
-			<a href="resources">RESOURCES</a>
+			<a href="projects">PROJECTS</a>
+			<a class="active" href="resources">RESOURCES</a>
 			<a href="about">ABOUT</a>
 			<a href="https://github.com/ares-gh"><i class="fa-brands fa-github"></i> </a>
 			<a href="https://discord.gg/9rDKEyJ62C"><i class="fa-brands fa-discord"></i></a>
