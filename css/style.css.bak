@@ -88,7 +88,7 @@ a {
   }
   .landing {
 	margin: 85vw 0vw;	
-	font-size: 7vw;
+	font-size: 5vw;
   }
   .home {
 	padding: 4vw;
