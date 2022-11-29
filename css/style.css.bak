@@ -50,9 +50,6 @@ body {
 	backdrop-filter: blur(1vw);
 	line-height: 1.628;
 }
-.home-title {
-	letter-spacing: 10vw;
-}
 .home p {
 	font-size: 1.2vw;
 	text-align: left;
