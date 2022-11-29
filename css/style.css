@@ -1,11 +1,14 @@
 .topnav {
-	text-align: center;
 	background: rgb(0, 0, 0, 0.6);
 	position: fixed; 
     top: 0; 
 	left: 0; 
 	backdrop-filter: blur(1vw);
-	width: 100%;
+	width: 90%;
+	border-radius: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1%;
 }
 body {
 	background: rgb(10, 10, 10);
@@ -17,29 +20,28 @@ body {
 	background-position: top center;
 	background-size: cover;
 	background-attachment: fixed;
+	letter-spacing: 0.2rem;
+	border-radius: 20px;
 }
 .topnav a {
 	text-decoration: none;
-	text-align: center;
-	display: flex;
 	font-size: 1vw;
-	padding: 1.5vw 5vw;
-	font-weight: bold;
+	padding: 1.5vw 4vw;
 	float: left;
 	color: rgb(249, 246, 238);
+	transition: opacity 0.3s;
 }
 .topnav .icon {
 	display: none;
 }
 .landing {
 	text-align: center;
-	font-size: 3vw;
+	font-size: 2vw;
 	padding-top: 20vw;
 	padding-bottom: 10vw;
-	text-shadow: 2px 2px 20px black;
+	letter-spacing: 2vw;
 }
 .home {
-	text-align: center;
 	font-size: 1.6vw;
 	margin: 10vw;
 	padding: 2vw;
@@ -56,21 +58,25 @@ body {
   opacity: 0.6;
 }
 a {
-  padding: 0 16px;
+ 
   transition: opacity 0.3s;
 }
-@media screen and (max-width: 654px) {
+@media screen and (max-width: 1125px) {
   .topnav a {
-	padding: 1vw 8.1vw;
+	padding: 1vw 4.4vw;
+  }
+@media screen and (max-width: 700px) {
+  .topnav a {
+	padding: 1vw 4em;
   }
 }
+@media screen and (max-width: 600px) {
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child)  {display: none;}
   .topnav a.icon {
 	float: right;
     display: block;
   }
-@media screen and (max-width: 600px) {
   .topnav.responsive {position: fixed;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -83,7 +89,7 @@ a {
     text-align: left;
   }
   .topnav a {
-	font-size: 6vw;
+	font-size: 5vw;
 	padding: 6vw 12vw;
   }
   .landing {
@@ -94,12 +100,10 @@ a {
 	padding: 4vw;
 	margin: 0vw;	
 	font-size: 4.5vw;
-	border-radius: 0px;
 	text-align: center;
   }
   .home p {	
 	font-size: 4vw;
-	text-align: left;
   }
   }
 }
