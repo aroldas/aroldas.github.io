@@ -2,7 +2,7 @@
 <html>
 
 	<head>
-		<title>Home | Huracan</title>
+		<title>Projects | Huracan</title>
 		<link rel="stylesheet" href="css/style.css">
 		<script src="https://kit.fontawesome.com/93fe859f5a.js" crossorigin="anonymous"></script>
 		<meta name="keywords" content="HTML, CSS, JavaScript, Huracan, Huracan.dev">
@@ -14,13 +14,9 @@
 	
 	<body>
 		<nav class="topnav" id="topnav">
-			<a class="active" href="/">HURACAN</a>
-			<a href="projects">PROJECTS</a>
-			<a href="resources">RESOURCES</a>
-			<a href="about">ABOUT</a>
-			<a href="https://github.com/ares-gh"><i class="fa-brands fa-github"></i> </a>
-			<a href="https://discord.gg/9rDKEyJ62C"><i class="fa-brands fa-discord"></i></a>
-			<a href="https://www.youtube.com/channel/UCgkxIfrjGziyplpONixZTqg"><i class="fa-brands fa-youtube"></i></a>
+			<a class="active" href="projects">PROJECTS</a>
+			<a href="/">HURACAN</a>
+			<a href="services">SERVICES</a>
 			<a href="javascript:void(0);" class="icon" onclick="navicon()">
 			<i class="fa fa-bars"></i></a>
 		</nav>
@@ -33,10 +29,15 @@
 		}
 		</script>
 		<div class="landing">
-			<h1> HURACAN </h1>
+			<h1> PROJECTS </h1>
+		</div>
+		<div class="socials">
+			<a href="https://github.com/ares-gh"><i class="fa-brands fa-github fa-xl"></i> </a>
+			<a href="https://discord.gg/9rDKEyJ62C"><i class="fa-brands fa-discord fa-xl"></i></a>
+			<a href="https://www.youtube.com/channel/UCgkxIfrjGziyplpONixZTqg"><i class="fa-brands fa-youtube fa-xl"></i></a>
 		</div>
 		<div class="home">
-			<h1> Home | Huracan </h1>
+			<h1> PROJECTS | HURACAN </h1>
 			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt vitae semper quis lectus nulla at volutpat diam ut. In est ante in nibh mauris cursus mattis molestie. Justo laoreet sit amet cursus sit amet dictum sit. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Ultrices vitae auctor eu augue. Laoreet non curabitur gravida arcu ac tortor dignissim convallis. Enim neque volutpat ac tincidunt vitae. Habitant morbi tristique senectus et netus et malesuada. Sit amet est placerat in egestas erat imperdiet sed. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Odio pellentesque diam volutpat commodo. Egestas purus viverra accumsan in nisl. Lorem mollis aliquam ut porttitor leo. Placerat orci nulla pellentesque dignissim. A arcu cursus vitae congue mauris rhoncus aenean. Sit amet consectetur adipiscing elit duis tristique. </p>
 		</div>		
 	</body>

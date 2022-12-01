@@ -4,11 +4,22 @@
     top: 0; 
 	left: 0; 
 	backdrop-filter: blur(1vw);
-	width: 90%;
+	width: 96%;
 	border-radius: 20px;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 1%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+}
+.socials {
+	margin: auto;
+	width: 250%;
+	max-width: 40%;
+	text-align: center;
+}
+.socials a {
+	padding: 0vw 1vw;
+	color: rgb(249, 246, 238);
+	text-decoration: none;
 }
 body {
 	background: rgb(10, 10, 10);
@@ -26,19 +37,23 @@ body {
 .topnav a {
 	text-decoration: none;
 	font-size: 1vw;
-	padding: 1.5vw 4vw;
+	padding: 1.5vw 1vw;
 	float: left;
 	color: rgb(249, 246, 238);
 	transition: opacity 0.3s;
+	margin: auto;
+	width: 30%;
+	text-align: center;
 }
 .topnav .icon {
 	display: none;
 }
 .landing {
+	margin: auto;
+	width: 100%;
 	text-align: center;
 	font-size: 2vw;
 	padding-top: 20vw;
-	padding-bottom: 10vw;
 	letter-spacing: 2vw;
 }
 .home {
@@ -54,7 +69,7 @@ body {
 	font-size: 1.2vw;
 	text-align: left;
 }
-.topnav:hover a:not(:hover) {
+.html:hover a:not(:hover) {
   opacity: 0.6;
 }
 a {
@@ -89,10 +104,10 @@ a {
   }
   .topnav a {
 	font-size: 5vw;
-	padding: 6vw 12vw;
+	padding: 4vw 12vw;
   }
   .landing {
-	margin: 85vw 0vw;	
+	padding-top: 50vw;	
 	font-size: 7vw;
   }
   .home {
@@ -103,6 +118,12 @@ a {
   }
   .home p {	
 	font-size: 4vw;
+  }
+  .socials {
+	margin-bottom: 20vw;	
+  }
+  .socials a {
+	padding: 3vw;
   }
   }
 }
