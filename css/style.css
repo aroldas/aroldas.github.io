@@ -31,7 +31,7 @@ body {
 	background-position: top center;
 	background-size: cover;
 	background-attachment: fixed;
-	letter-spacing: 0.2rem;
+	letter-spacing: 0.2vw;
 	border-radius: 20px;
 }
 .topnav a {
@@ -103,12 +103,13 @@ a {
     text-align: left;
   }
   .topnav a {
-	font-size: 5vw;
-	padding: 4vw 12vw;
+	font-size: 4vw;
+	padding: 4vw 8vw;
   }
   .landing {
 	padding-top: 50vw;	
-	font-size: 7vw;
+	font-size: 5vw;
+	letter-spacing: 1vw;
   }
   .home {
 	padding: 4vw;
@@ -123,7 +124,7 @@ a {
 	margin-bottom: 20vw;	
   }
   .socials a {
-	padding: 3vw;
+	padding: 2vw;
   }
   }
 }
