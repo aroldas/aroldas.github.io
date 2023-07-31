@@ -18,7 +18,7 @@
 			<a href="services">SERVICES</a>
 			<a href="about">ABOUT</a>
 			<a href="https://github.com/ares-gh"><i class="fa-brands fa-github"></i> </a>
-			<a href="https://discord.gg/9rDKEyJ62C"><i class="fa-brands fa-discord"></i></a>
+			<a href="https://discord.gg"><i class="fa-brands fa-discord"></i></a>
 			<a href="https://www.youtube.com/channel/UCgkxIfrjGziyplpONixZTqg"><i class="fa-brands fa-youtube"></i></a>
 			<a href="javascript:void(0);" class="icon" onclick="navicon()">
 			<i class="fa fa-bars"></i></a>
